@@ -1,0 +1,43 @@
+[
+    
+    {
+        "id": "TC01",
+        "question": "How much is the T-shirt?",
+        "ai_output": "The T-shirt costs $20.",
+        "expected_keywords": ["T-shirt", "costs", "price", "amount"],
+        "forbidden_keywords": ["$100"] 
+    },
+
+    {
+        "id": "TC02",
+        "question": "What is the return policy?",
+        "ai_output": "The return policy for electronics is 30 days with a receipt.",
+        "expected_keywords": ["return policy", "30 days", "receipt"],
+        "forbidden_keywords": ["no returns", "15 days"]
+    },
+
+    {
+        "id": "TC03",
+        "question": "Can I get a discount on bulk orders?",
+        "ai_output": "Yes, we offer discounts on bulk orders.",
+        "expected_keywords": ["bulk orders", "price reduction"],
+        "forbidden_keywords": ["discount", "full price"]
+    },
+
+    {
+        "id": "TC04",
+        "question": "Are there any discounts available for students?",
+        "ai_output": "Yes, we offer a 15% discount for students with a valid ID.",
+        "expected_keywords": ["discount", "students", "student ID"],
+        "forbidden_keywords": ["10%", "Valid ID"]
+    },
+
+    {
+        "id": "TC05",
+        "question": "What are the shipping options?",
+        "ai_output": "We offer standard, expedited, overnight and it will have fee-based shipping options.",
+        "expected_keywords": ["shipping options", "standard", "expedited", "overnight"],
+        "forbidden_keywords": ["free shipping", "international"]
+    }
+
+]
