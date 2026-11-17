@@ -38,6 +38,14 @@
         "ai_output": "We offer standard, expedited, overnight and it will have fee-based shipping options.",
         "expected_keywords": ["shipping options", "standard", "expedited", "overnight"],
         "forbidden_keywords": ["free shipping", "international"]
+    },
+
+    {
+        "id": "TC06",
+        "question": "How can I track my order?",
+        "ai_output": "You can track your order using the tracking number provided in your confirmation email.",
+        "expected_keywords": ["track", "order", "tracking number", "confirmation email"],
+        "forbidden_keywords": ["cannot track", "no tracking"]
     }
 
 ]
