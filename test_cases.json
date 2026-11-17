@@ -46,6 +46,38 @@
         "ai_output": "You can track your order using the tracking number provided in your confirmation email.",
         "expected_keywords": ["track", "order", "tracking number", "confirmation email"],
         "forbidden_keywords": ["cannot track", "no tracking"]
+    },
+
+    {
+        "id": "TC07",
+        "question": "What payment methods are accepted?",
+        "ai_output": "We accept credit cards, debit cards, PayPal, and Apple Pay.",
+        "expected_keywords": ["payment methods", "credit cards", "debit cards", "PayPal", "Apple Pay"],
+        "forbidden_keywords": ["cash only", "Bitcoin"]
+    },
+
+    {
+        "id": "TC08",
+        "question": "Is there a warranty on the products?",
+        "ai_output": "Yes, all our products come with a one-year warranty.",
+        "expected_keywords": ["warranty", "one-year", "products"],
+        "forbidden_keywords": ["no warranty", "limited warranty"]
+    },
+    
+    {
+        "id": "TC09",
+        "question": "Can I change my shipping address after placing an order?",
+        "ai_output": "Yes, you can change your shipping address within 24 hours of placing the order.",
+        "expected_keywords": ["change", "shipping address", "24 hours"],
+        "forbidden_keywords": ["cannot change", "after 24 hours"]
+    },
+    
+    {
+        "id": "TC10",
+        "question": "What is the estimated delivery time?",
+        "ai_output": "The estimated delivery time is 5-7 business days.",
+        "expected_keywords": ["estimated delivery time", "5-7 business days"],
+        "forbidden_keywords": ["1 day", "2 weeks"]
     }
 
 ]
