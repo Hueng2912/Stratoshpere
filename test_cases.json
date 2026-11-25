@@ -3,7 +3,7 @@
     {
         "id": "TC01",
         "question": "How much is the T-shirt?",
-        "ai_output": "The T-shirt costs $20.",
+        "ai_output": "The T-shirt costs $100.",
         "expected_keywords": ["T-shirt", "costs", "price", "amount"],
         "forbidden_keywords": ["$100"] 
     },
